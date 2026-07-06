@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gayatri Traders — TMT Bars, Cement & Bricks | Utai, Durg</title>
+<meta name="description" content="TMT bars, cement, and kiln-fired bricks stocked, tested, and delivered across Utai, Durg, and Bhilai since 2018.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Gayatri Traders",
+  "description": "Supplier of TMT bars, cement, and kiln-fired bricks in Utai, Durg, and Bhilai, Chhattisgarh. Established 2018.",
+  "telephone": "+91-7049907863",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bazaar Chowk",
+    "addressLocality": "Utai",
+    "addressRegion": "Chhattisgarh",
+    "postalCode": "",
+    "addressCountry": "IN"
+  },
+  "areaServed": ["Utai", "Durg", "Bhilai"],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "07:00",
+      "closes": "20:00"
+    }
+  ],
+  "sameAs": []
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --charcoal:#211D1A;
+    --charcoal-soft:#2C2723;
+    --cream:#F3EEE3;
+    --cream-deep:#EAE2D2;
+    --rust:#A8462B;
+    --rust-deep:#8A3A23;
+    --steel:#5B564F;
+    --amber:#D98C2B;
+    --line:#DED5C4;
+    --line-dark:#453F39;
+    --paper:#FBF8F1;
+    --max:1180px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--charcoal);
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  ul{margin:0;padding:0;list-style:none;}
+  h1,h2,h3,h4{margin:0;font-family:'Big Shoulders Display', sans-serif;font-weight:800;letter-spacing:0.01em;line-height:0.95;}
+  p{margin:0;}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 28px;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--rust);
+    font-weight:600;
+  }
+  .eyebrow.on-dark{color:var(--amber);}
+  section{padding:104px 0;}
+  @media (max-width:760px){ section{padding:64px 0;} .wrap{padding:0 20px;} }
+
+  :focus-visible{outline:3px solid var(--amber);outline-offset:3px;}
+
+  /* reveal-on-scroll */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1;transform:translateY(0);}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none;transition:none;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* ---------- buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:14px;font-weight:600;letter-spacing:0.03em;
+    padding:15px 26px;border-radius:3px;
+    border:1.5px solid transparent;cursor:pointer;
+    transition:transform .15s ease, background .15s ease, color .15s ease, border-color .15s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn-primary{background:var(--rust);color:var(--paper);}
+  .btn-primary:hover{background:var(--rust-deep);}
+  .btn-ghost-dark{border-color:rgba(243,238,227,0.35);color:var(--paper);}
+  .btn-ghost-dark:hover{border-color:var(--paper);background:rgba(243,238,227,0.08);}
+  .btn-ghost-light{border-color:var(--charcoal);color:var(--charcoal);}
+  .btn-ghost-light:hover{background:var(--charcoal);color:var(--paper);}
+  .btn-amber{background:var(--amber);color:var(--charcoal);}
+  .btn-amber:hover{background:#c67c22;}
+
+  /* ---------- nav ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(33,29,26,0.96);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line-dark);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;}
+  .brand{display:flex;align-items:center;gap:10px;color:var(--paper);}
+  .brand-mark{
+    width:34px;height:34px;flex:none;border:2px solid var(--amber);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Big Shoulders Display';font-weight:900;color:var(--amber);font-size:19px;
+  }
+  .brand-name{font-family:'Big Shoulders Display';font-weight:800;font-size:20px;color:var(--paper);letter-spacing:0.02em;}
+  .brand-sub{font-family:'IBM Plex Mono';font-size:10.5px;color:#B7ADA0;letter-spacing:0.12em;display:block;margin-top:-2px;}
+  .nav-links{display:flex;align-items:center;gap:30px;}
+  .nav-links a.nl{font-family:'IBM Plex Mono';font-size:13px;color:#D8CFC2;letter-spacing:0.02em;}
+  .nav-links a.nl:hover{color:var(--paper);}
+  .nav-phone{font-family:'IBM Plex Mono';font-size:13.5px;color:var(--paper);font-weight:600;display:flex;align-items:center;gap:8px;}
+  .nav-phone .dot{width:7px;height:7px;border-radius:50%;background:#5FA85A;display:inline-block;}
+  .nav-hours{font-size:12.5px;color:#8A8177;}
+  @media (max-width:900px){ .nav-links{display:none;} .nav-hours{display:none;} }
+
+  /* ---------- hero ---------- */
+  .hero{
+    background:var(--charcoal);
+    color:var(--paper);
+    padding:96px 0 0 0;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero .wrap{display:grid;grid-template-columns:1.15fr 0.85fr;gap:40px;align-items:end;}
+  @media (max-width:900px){ .hero .wrap{grid-template-columns:1fr;} }
+  .hero-head{padding-bottom:70px;}
+  .hero-eyebrow{margin-bottom:22px;}
+  .hero h1{
+    font-size:clamp(40px,6vw,74px);
+    color:var(--paper);
+    margin-bottom:26px;
+  }
+  .hero h1 em{font-style:normal;color:var(--amber);}
+  .hero-sub{
+    font-size:18px;color:#CFC5B6;max-width:520px;margin-bottom:36px;line-height:1.55;
+  }
+  .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;}
+
+  /* the signature "challan" card */
+  .challan-wrap{padding-bottom:0;display:flex;justify-content:center;}
+  .challan{
+    background:var(--paper);
+    color:var(--charcoal);
+    width:100%;max-width:360px;
+    padding:26px 24px 22px;
+    position:relative;
+    transform:rotate(2.4deg);
+    box-shadow:0 30px 60px -20px rgba(0,0,0,0.55);
+    margin-bottom:-46px;
+    border-top:6px solid var(--rust);
+  }
+  .challan::before{
+    content:"";position:absolute;top:-1px;left:0;right:0;height:14px;
+    background-image:radial-gradient(circle, var(--charcoal) 4px, transparent 4.2px);
+    background-size:20px 20px;background-position:6px -7px;background-repeat:repeat-x;
+  }
+  .challan-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;padding-bottom:12px;border-bottom:1px dashed var(--line);}
+  .challan-title{font-family:'Big Shoulders Display';font-weight:800;font-size:20px;}
+  .challan-no{font-family:'IBM Plex Mono';font-size:10.5px;color:var(--steel);}
+  .challan-row{display:flex;justify-content:space-between;font-family:'IBM Plex Mono';font-size:12.5px;padding:6px 0;border-bottom:1px solid var(--line);}
+  .challan-row span:first-child{color:var(--steel);}
+  .challan-row span:last-child{font-weight:600;}
+  .challan-stamp{
+    margin-top:16px;display:inline-flex;align-items:center;gap:8px;
+    border:2px solid #4E7A46;color:#4E7A46;
+    padding:6px 12px;transform:rotate(-3deg);
+    font-family:'IBM Plex Mono';font-size:11.5px;font-weight:700;letter-spacing:0.08em;
+  }
+
+  /* ---------- trust strip ---------- */
+  .trust{
+    background:var(--charcoal-soft);
+    border-top:1px solid var(--line-dark);
+    padding:70px 0 46px;
+  }
+  .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;}
+  @media (max-width:800px){ .trust-grid{grid-template-columns:repeat(2,1fr);row-gap:34px;} }
+  .trust-item{
+    border-left:1px solid var(--line-dark);
+    padding:0 26px;
+  }
+  .trust-item:first-child{border-left:none;}
+  @media (max-width:800px){ .trust-item:nth-child(odd){border-left:none;} }
+  .trust-num{font-family:'Big Shoulders Display';font-weight:900;font-size:clamp(34px,4vw,48px);color:var(--paper);}
+  .trust-label{font-family:'IBM Plex Mono';font-size:12px;color:#B7ADA0;letter-spacing:0.03em;margin-top:6px;}
+
+  /* ---------- section heads ---------- */
+  .sect-head{max-width:640px;margin-bottom:52px;}
+  .sect-head h2{font-size:clamp(30px,4vw,44px);margin-top:14px;}
+  .sect-head .desc{margin-top:16px;font-size:16.5px;color:var(--steel);}
+
+  /* ---------- founder note ---------- */
+  .founder{background:var(--paper);}
+  .founder-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:56px;align-items:center;}
+  @media (max-width:800px){ .founder-grid{grid-template-columns:1fr;} }
+  .founder-photo{
+    aspect-ratio:4/5;
+    background:
+      repeating-linear-gradient(135deg, #C9BEAC 0 2px, transparent 2px 26px),
+      linear-gradient(160deg, var(--steel), var(--charcoal));
+    position:relative;border:1px solid var(--line);
+    display:flex;align-items:flex-end;padding:18px;
+  }
+  .founder-photo span{
+    font-family:'IBM Plex Mono';font-size:11.5px;color:#E6DDCE;
+    background:rgba(33,29,26,0.55);padding:6px 10px;
+  }
+  .founder-quote{font-family:'Big Shoulders Display';font-weight:700;font-size:clamp(22px,2.6vw,29px);line-height:1.25;margin-bottom:22px;}
+  .founder-body p{color:var(--steel);font-size:16.5px;margin-bottom:16px;}
+  .founder-body p:last-of-type{margin-bottom:22px;}
+  .founder-sign{font-family:'IBM Plex Mono';font-size:14px;font-weight:600;border-top:2px solid var(--rust);padding-top:12px;display:inline-block;}
+  .founder-sign small{display:block;font-weight:400;color:var(--steel);margin-top:2px;}
+
+  /* ---------- why customers reorder ---------- */
+  .reorder{background:var(--paper);}
+  .reorder-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:8px;}
+  @media (max-width:860px){ .reorder-grid{grid-template-columns:1fr;} }
+  .reorder-card{border-left:3px solid var(--amber);padding:4px 0 4px 22px;}
+  .reorder-mark{font-family:'IBM Plex Mono';font-size:12px;color:var(--rust);font-weight:600;margin-bottom:10px;}
+  .reorder-card h4{font-family:'Big Shoulders Display';font-weight:700;font-size:21px;margin-bottom:10px;}
+  .reorder-card p{color:var(--steel);font-size:15px;}
+
+  /* ---------- materials ---------- */
+  .materials{background:var(--cream-deep);}
+  .mat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+  @media (max-width:860px){ .mat-grid{grid-template-columns:1fr;} }
+  .mat-card{background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column;}
+  .mat-swatch{height:150px;position:relative;}
+  .mat-swatch.rebar{background:
+      repeating-linear-gradient(115deg, #706A5F 0 5px, #58524A 5px 9px, transparent 9px 30px),
+      linear-gradient(180deg,#8b8378,#5b564f);}
+  .mat-swatch.cement{background:
+      radial-gradient(circle at 20% 30%, rgba(0,0,0,0.12) 0 2px, transparent 2.4px),
+      radial-gradient(circle at 60% 70%, rgba(0,0,0,0.10) 0 1.6px, transparent 2px),
+      radial-gradient(circle at 80% 20%, rgba(0,0,0,0.1) 0 1.8px, transparent 2.2px),
+      linear-gradient(180deg,#C7BFAE,#A79E8C);
+      background-size:26px 26px, 22px 22px, 30px 30px, cover;}
+  .mat-swatch.brick{background:
+      repeating-linear-gradient(0deg, #8A3A23 0 22px, #6f2e1c 22px 24px),
+      repeating-linear-gradient(90deg, transparent 0 58px, #6f2e1c 58px 60px);
+      background-blend-mode:multiply;}
+  .mat-swatch::after{content:"";position:absolute;inset:0;box-shadow:inset 0 -30px 26px -20px rgba(0,0,0,0.35);}
+  .mat-body{padding:24px 24px 26px;flex:1;display:flex;flex-direction:column;}
+  .mat-num{font-family:'IBM Plex Mono';font-size:12px;color:var(--rust);font-weight:600;margin-bottom:10px;}
+  .mat-body h3{font-size:24px;margin-bottom:10px;}
+  .mat-body p{color:var(--steel);font-size:15px;flex:1;}
+  .mat-spec{font-family:'IBM Plex Mono';font-size:12px !important;color:var(--rust) !important;flex:none !important;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);}
+  .mat-ask{margin-top:52px;text-align:center;font-family:'IBM Plex Mono';font-size:13.5px;color:var(--steel);}
+  .mat-ask a{color:var(--rust);font-weight:600;border-bottom:1px solid var(--rust);}
+
+  /* ---------- who we supply ---------- */
+  .who{background:var(--cream-deep);padding-top:0;}
+  .who-grid{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px;}
+  .who-chip{
+    display:flex;align-items:center;gap:10px;
+    background:var(--paper);border:1px solid var(--line);
+    padding:14px 18px;font-size:14.5px;color:var(--charcoal);
+  }
+  .who-chip span{font-family:'IBM Plex Mono';color:var(--rust);font-weight:600;font-size:12.5px;}
+
+  /* ---------- how it works ---------- */
+  .how{background:var(--charcoal);color:var(--paper);}
+  .how .eyebrow, .how .sect-head .desc{color:var(--amber);}
+  .how .sect-head .desc{color:#CFC5B6;}
+  .how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;}
+  @media (max-width:900px){ .how-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:560px){ .how-grid{grid-template-columns:1fr;} }
+  .how-step{border-top:2px solid var(--amber);padding-top:20px;}
+  .how-step .step-num{font-family:'Big Shoulders Display';font-weight:900;font-size:44px;color:var(--amber);display:block;margin-bottom:10px;}
+  .how-step h4{font-family:'IBM Plex Sans';font-weight:600;font-size:17px;margin-bottom:8px;}
+  .how-step p{color:#B7ADA0;font-size:14.5px;}
+  .how-note{max-width:680px;margin-top:48px;padding-top:32px;border-top:1px solid var(--line-dark);color:#CFC5B6;font-size:15.5px;line-height:1.65;}
+
+  /* ---------- service areas ---------- */
+  .areas{background:var(--paper);}
+  .areas-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:center;}
+  @media (max-width:860px){ .areas-grid{grid-template-columns:1fr;} }
+  .area-chips{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 28px;}
+  .chip{font-family:'IBM Plex Mono';font-size:13px;border:1px solid var(--line);padding:8px 14px;color:var(--charcoal);}
+  .chip.primary{border-color:var(--rust);color:var(--rust);font-weight:600;}
+  .areas p.lead{font-size:16.5px;color:var(--steel);max-width:480px;}
+  .map-card{border:1px solid var(--line);background:var(--paper);}
+  .map-frame-wrap{position:relative;aspect-ratio:4/3.4;filter:grayscale(0.15) contrast(1.02);}
+  .map-frame-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .map-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;border-top:1px solid var(--line);flex-wrap:wrap;}
+  .map-foot .mono{font-size:12.5px;color:var(--steel);}
+  .map-foot a{font-family:'IBM Plex Mono';font-size:12.5px;color:var(--rust);font-weight:600;border-bottom:1px solid var(--rust);white-space:nowrap;}
+
+  /* ---------- reviews ---------- */
+  .reviews{background:var(--cream-deep);}
+  .rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+  @media (max-width:860px){ .rev-grid{grid-template-columns:1fr;} }
+  .rev-card{
+    background:var(--paper);border-top:5px solid var(--rust);
+    padding:26px 24px;position:relative;
+  }
+  .rev-stars{font-family:'IBM Plex Mono';color:var(--amber);font-size:14px;letter-spacing:2px;margin-bottom:14px;}
+  .rev-quote{font-size:16px;margin-bottom:20px;color:var(--charcoal);}
+  .rev-who{font-family:'IBM Plex Mono';font-size:12.5px;color:var(--steel);border-top:1px dashed var(--line);padding-top:12px;}
+  .rev-who b{color:var(--charcoal);}
+  .rev-meta{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:40px;font-family:'IBM Plex Mono';font-size:14px;color:var(--steel);}
+  .rev-meta b{color:var(--charcoal);font-size:16px;}
+
+  /* ---------- FAQ ---------- */
+  .faq{background:var(--paper);}
+  .faq-list{max-width:760px;}
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{
+    width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    display:flex;justify-content:space-between;align-items:center;gap:20px;
+    padding:22px 0;font-family:'Big Shoulders Display';font-weight:700;font-size:19px;color:var(--charcoal);
+  }
+  .faq-q .plus{font-family:'IBM Plex Mono';color:var(--rust);font-size:22px;flex:none;transition:transform .2s ease;}
+  .faq-item.open .plus{transform:rotate(45deg);}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .28s ease;}
+  .faq-a p{padding:0 0 22px;color:var(--steel);font-size:15.5px;max-width:640px;}
+
+  /* ---------- final CTA ---------- */
+  .final-cta{background:var(--rust);color:var(--paper);text-align:center;}
+  .final-cta h2{font-size:clamp(30px,5vw,50px);color:var(--paper);margin-bottom:16px;}
+  .final-cta .sub{font-size:17px;color:#F3D9CC;margin-bottom:34px;}
+  .final-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
+  .btn-cta-primary{background:var(--charcoal);color:var(--paper);}
+  .btn-cta-primary:hover{background:#000;}
+  .btn-cta-ghost{border-color:rgba(243,238,227,0.5);color:var(--paper);}
+  .btn-cta-ghost:hover{background:rgba(0,0,0,0.15);}
+
+  /* ---------- footer ---------- */
+  footer{background:var(--charcoal);color:#B7ADA0;padding:56px 0 26px;}
+  .foot-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:32px;margin-bottom:40px;}
+  @media (max-width:900px){ .foot-grid{grid-template-columns:1fr 1fr;gap:30px;} }
+  @media (max-width:560px){ .foot-grid{grid-template-columns:1fr;} }
+  .foot-brand{color:var(--paper);font-family:'Big Shoulders Display';font-weight:800;font-size:22px;margin-bottom:10px;}
+  .foot-col h5{font-family:'IBM Plex Mono';font-size:12px;color:#8A8177;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:14px;}
+  .foot-col p, .foot-col a{display:block;font-size:14.5px;margin-bottom:8px;color:#CFC5B6;}
+  .foot-col a:hover{color:var(--paper);}
+  .foot-bottom{border-top:1px solid var(--line-dark);padding-top:22px;font-family:'IBM Plex Mono';font-size:12px;color:#7A7268;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+
+  .num-count{display:inline-block;}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <div class="brand">
+      <div class="brand-mark">G</div>
+      <div>
+        <span class="brand-name">GAYATRI TRADERS</span>
+        <span class="brand-sub">EST. 2018 · UTAI, DURG</span>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li><a class="nl" href="#materials">Materials</a></li>
+      <li><a class="nl" href="#how">Ordering</a></li>
+      <li><a class="nl" href="#areas">Delivery Areas</a></li>
+      <li><a class="nl" href="#reviews">Reviews</a></li>
+      <li><a class="nl" href="#faq">FAQ</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:18px;">
+      <span class="nav-hours mono">Open from 7:00 AM</span>
+      <a href="https://wa.me/917049907863" class="nl" style="font-family:'IBM Plex Mono';font-size:13px;color:#D8CFC2;">WhatsApp</a>
+      <a href="tel:07049907863" class="nav-phone"><span class="dot"></span>070499 07863</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-head">
+      <p class="eyebrow hero-eyebrow on-dark">ESTABLISHED 2018 · BAZAAR CHOWK, UTAI, DURG · OPEN FROM 7:00 AM</p>
+      <h1 class="reveal">Building materials Chhattisgarh<br>contractors <em>actually reorder</em> from.</h1>
+      <p class="hero-sub reveal">TMT bars, cement, and kiln-fired bricks — stocked, tested, and delivered across Utai, Durg, and Bhilai. Same supplier since 2018, same phone number, same yard.</p>
+      <div class="hero-ctas reveal">
+        <a href="https://wa.me/917049907863?text=Hi%2C%20I%27d%20like%20to%20check%20today%27s%20stock" class="btn btn-primary">Check Today's Stock →</a>
+        <a href="tel:07049907863" class="btn btn-ghost-dark">Call the Yard: 070499 07863</a>
+      </div>
+      <p class="reveal" style="margin-top:16px;font-family:'IBM Plex Mono';font-size:12.5px;color:#A79E90;">Send your material list, site address, and preferred delivery day — we'll reply with stock and price the same day.</p>
+    </div>
+    <div class="challan-wrap reveal">
+      <div class="challan">
+        <div class="challan-top">
+          <div>
+            <div class="challan-title">Delivery Note</div>
+            <div class="challan-no">GT / DN / 04471</div>
+          </div>
+          <div class="challan-no">06 JUL 2026</div>
+        </div>
+        <div class="challan-row"><span>TMT Fe550D — 12mm</span><span>40 pcs</span></div>
+        <div class="challan-row"><span>Cement — OPC 43</span><span>20 bags</span></div>
+        <div class="challan-row"><span>Bricks — kiln-fired</span><span>5,000 nos</span></div>
+        <div class="challan-row"><span>Weight checked at yard</span><span>✓ Matched</span></div>
+        <div class="challan-stamp">✓ WEIGHT VERIFIED</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="wrap trust-grid">
+    <div class="trust-item reveal">
+      <div class="trust-num"><span class="num-count" data-count="8">0</span>+ Yrs</div>
+      <div class="trust-label">SERVING UTAI &amp; DURG</div>
+    </div>
+    <div class="trust-item reveal">
+      <div class="trust-num"><span class="num-count" data-count="4000">0</span>+</div>
+      <div class="trust-label">SITE DELIVERIES SINCE 2018</div>
+    </div>
+    <div class="trust-item reveal">
+      <div class="trust-num">FE 550D</div>
+      <div class="trust-label">AUTHORIZED TMT DEALER</div>
+    </div>
+    <div class="trust-item reveal">
+      <div class="trust-num">24 HR</div>
+      <div class="trust-label">DISPATCH ON IN-STOCK ORDERS</div>
+    </div>
+  </div>
+</section>
+
+<section class="founder">
+  <div class="wrap founder-grid">
+    <div class="founder-photo reveal">
+      <span>📷 Replace this block with a real photo — owner at the yard, a loaded truck, or the stacked stock. Any real photo here outperforms this placeholder.</span>
+    </div>
+    <div class="reveal">
+      <p class="eyebrow">WHO YOU'RE BUYING FROM</p>
+      <p class="founder-quote" style="margin-top:14px;">"If the steel doesn't match the invoiced weight, we don't send it out. That's the whole trust model."</p>
+      <div class="founder-body">
+        <p>Gayatri Traders started in 2018 at Bazaar Chowk, Utai, supplying TMT bars, cement, and bricks to homeowners and contractors across Durg and Bhilai. No showroom gimmicks — just stocked material, correct weight, and a phone that gets answered.</p>
+        <p>We check every delivery against the bill before it leaves the yard, every time, for every order — big or small.</p>
+      </div>
+      <div class="founder-sign">— [Owner's Name]<small>Founder, Gayatri Traders</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="reorder">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <p class="eyebrow">WHY CUSTOMERS COME BACK</p>
+      <h2 style="font-size:clamp(28px,4vw,40px);">Not the only supplier in Durg. Just the one people call again.</h2>
+    </div>
+    <div class="reorder-grid">
+      <div class="reorder-card reveal">
+        <div class="reorder-mark">01</div>
+        <h4>Quantity checked before dispatch</h4>
+        <p>Every order is weighed and counted against the bill before the truck leaves our yard — not after you've complained.</p>
+      </div>
+      <div class="reorder-card reveal">
+        <div class="reorder-mark">02</div>
+        <h4>Clear pricing before delivery</h4>
+        <p>You get a confirmed price the same day you ask, before anything is loaded. No surprises at the site.</p>
+      </div>
+      <div class="reorder-card reveal">
+        <div class="reorder-mark">03</div>
+        <h4>Quick response on WhatsApp</h4>
+        <p>Most stock and price queries get answered same-day, whether it's a single-house order or an ongoing contractor supply.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="materials" id="materials">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <p class="eyebrow">WHAT WE STOCK</p>
+      <h2>Materials we supply</h2>
+      <p class="desc">Three categories, stocked and checked before they ever reach a card on this page. Bulk supply available for contractor and site orders — stock confirmed before every dispatch.</p>
+    </div>
+    <div class="mat-grid">
+      <div class="mat-card reveal">
+        <div class="mat-swatch rebar"></div>
+        <div class="mat-body">
+          <div class="mat-num">01 / TMT BARS</div>
+          <h3>TMT Bars</h3>
+          <p>Fe 550D earthquake-resistant rebar, authorized dealer stock. Sizes from 8mm to 32mm, tested for weight before dispatch.</p>
+          <p class="mat-spec">Use: RCC columns, slabs, footings · Ordered by: size + weight (per bundle or by the ton)</p>
+        </div>
+      </div>
+      <div class="mat-card reveal">
+        <div class="mat-swatch cement"></div>
+        <div class="mat-body">
+          <div class="mat-num">02 / CEMENT</div>
+          <h3>Cement</h3>
+          <p>OPC 43/53 grade and PPC, sourced fresh from depot — no old stock sold at a discount.</p>
+          <p class="mat-spec">Use: foundation work, plastering, general RCC · Ordered by: bag count or truckload</p>
+        </div>
+      </div>
+      <div class="mat-card reveal">
+        <div class="mat-swatch brick"></div>
+        <div class="mat-body">
+          <div class="mat-num">03 / BRICKS</div>
+          <h3>Bricks</h3>
+          <p>Kiln-fired red clay bricks and concrete engineering bricks, checked for consistent size and firing before we stock them.</p>
+          <p class="mat-spec">Use: walls, boundary work, partitions · Ordered by: count (1,000s) or full-load</p>
+        </div>
+      </div>
+    </div>
+    <p class="mat-ask reveal">Need a specific brand? <a href="https://wa.me/917049907863?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20brand%20availability">Ask about brand availability on WhatsApp →</a></p>
+  </div>
+</section>
+
+<section class="who">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <p class="eyebrow">WHO WE SUPPLY</p>
+      <h2 style="font-size:clamp(28px,4vw,40px);">Built for both a one-time build and an ongoing site.</h2>
+    </div>
+    <div class="who-grid">
+      <div class="who-chip reveal"><span>01</span>Homeowners building or extending a house</div>
+      <div class="who-chip reveal"><span>02</span>Contractors running an active site</div>
+      <div class="who-chip reveal"><span>03</span>Builders on multi-unit projects</div>
+      <div class="who-chip reveal"><span>04</span>Renovation &amp; repair work</div>
+      <div class="who-chip reveal"><span>05</span>Bulk / wholesale orders</div>
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <p class="eyebrow on-dark">FOUR STEPS, NO SHOWROOM VISIT NEEDED</p>
+      <h2>How it works</h2>
+      <p class="desc">From first message to material on site.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-step reveal">
+        <span class="step-num">01</span>
+        <h4>Call or WhatsApp us</h4>
+        <p>Tell us what you need and your site address.</p>
+      </div>
+      <div class="how-step reveal">
+        <span class="step-num">02</span>
+        <h4>We confirm stock and price</h4>
+        <p>Same day, no waiting on a callback.</p>
+      </div>
+      <div class="how-step reveal">
+        <span class="step-num">03</span>
+        <h4>We deliver to your site</h4>
+        <p>Utai, Durg, and Bhilai — most orders dispatched within 24 hours.</p>
+      </div>
+      <div class="how-step reveal">
+        <span class="step-num">04</span>
+        <h4>You check it against the bill</h4>
+        <p>Before our truck leaves your site.</p>
+      </div>
+    </div>
+    <p class="how-note reveal">Most customers send their material list on WhatsApp or call directly. We confirm stock, price, and delivery route, then dispatch once the order is finalized. For repeat customers and contractor orders, we can coordinate ongoing supply based on site requirement.</p>
+  </div>
+</section>
+
+<section class="areas" id="areas">
+  <div class="wrap areas-grid">
+    <div class="reveal">
+      <p class="eyebrow">WHERE WE DELIVER</p>
+      <h2 style="font-size:clamp(28px,4vw,40px);margin-top:14px;margin-bottom:18px;">Direct to your site, not just our yard.</h2>
+      <p class="lead">We deliver directly to your site across Utai, Durg, and Bhilai, and to nearby villages on request. Not sure if you're in range? Call or message us — we'll tell you straight, no runaround.</p>
+      <div class="area-chips">
+        <span class="chip primary">Utai</span>
+        <span class="chip primary">Durg</span>
+        <span class="chip primary">Bhilai</span>
+        <span class="chip">+ nearby villages on request</span>
+      </div>
+      <a href="https://wa.me/917049907863?text=Hi%2C%20can%20you%20deliver%20to%20my%20location%3F" class="btn btn-ghost-light">WhatsApp Your Location</a>
+    </div>
+    <div class="map-card reveal">
+      <div class="map-frame-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=Bazaar+Chowk,+Utai,+Durg,+Chhattisgarh&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Gayatri Traders location — Bazaar Chowk, Utai, Durg">
+        </iframe>
+      </div>
+      <div class="map-foot">
+        <span class="mono">Bazaar Chowk, Utai, Durg (CG)</span>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Bazaar+Chowk,+Utai,+Durg,+Chhattisgarh" target="_blank" rel="noopener">Get Directions →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <p class="eyebrow">WHAT CUSTOMERS SAY</p>
+      <h2>No filler, just what happened</h2>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-card reveal">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-quote">"Quality bricks at the best price in Utai. Delivered to my site on time, no delays."</p>
+        <div class="rev-who"><b>Ravi Sahu</b> · Homeowner, Utai · Single-house order</div>
+      </div>
+      <div class="rev-card reveal">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-quote">"Honest business. The TMT steel weight was exactly as billed. I've ordered from them three times now."</p>
+        <div class="rev-who"><b>Neeraj Verma</b> · Contractor, Durg · Repeat customer</div>
+      </div>
+      <div class="rev-card reveal">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-quote">"Called for a bulk cement order on short notice. Confirmed price same day and it arrived the next morning."</p>
+        <div class="rev-who"><b>Suresh Yadav</b> · Bhilai · Bulk order</div>
+      </div>
+    </div>
+    <div class="rev-meta reveal"><a href="https://www.google.com/search?q=Gayatri+Traders+Utai+Durg+reviews" target="_blank" rel="noopener">Read more reviews on Google →</a></div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="sect-head reveal">
+      <p class="eyebrow">BEFORE YOU CALL</p>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item open">
+        <button class="faq-q"><span>Do you provide a bill/invoice?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Yes, every order comes with a proper bill — steel weight, cement quantity, and brick count all itemized.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What's your delivery area?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Utai, Durg, Bhilai, and nearby villages. If you're unsure whether we cover your site, call and we'll tell you directly.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Can contractors get bulk pricing?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Yes — call or WhatsApp with your quantity and we'll quote it directly, no showroom visit required.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What if something arrives damaged or short?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Check the delivery against the bill before our truck leaves. Any discrepancy is corrected on the spot.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Do I need to visit the yard, or can I order by phone?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>Most customers order entirely by phone or WhatsApp. The yard is open if you'd rather see the stock yourself.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What are your hours?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p>We open at 7:00 AM daily. Call or WhatsApp any time — messages are answered even outside yard hours.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#F3D9CC;">NEED MATERIAL THIS WEEK?</p>
+    <h2 style="margin-top:14px;">Call or WhatsApp your list.<br>We'll confirm stock and price the same day.</h2>
+    <div class="final-ctas">
+      <a href="https://wa.me/917049907863?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order" class="btn btn-cta-primary">WhatsApp: 070499 07863</a>
+      <a href="tel:07049907863" class="btn btn-cta-ghost">Call the Yard</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">GAYATRI TRADERS</div>
+        <p>TMT bars, cement, and bricks — stocked and delivered across Utai, Durg, and Bhilai since 2018.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Visit / Call</h5>
+        <p>Bazaar Chowk, Utai, Durg (CG)</p>
+        <a href="tel:07049907863">070499 07863</a>
+        <a href="https://wa.me/917049907863">WhatsApp</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Bazaar+Chowk,+Utai,+Durg,+Chhattisgarh" target="_blank" rel="noopener">Get Directions on Google Maps</a>
+        <p>Open from 7:00 AM daily</p>
+      </div>
+      <div class="foot-col">
+        <h5>What We Supply</h5>
+        <a href="#materials">TMT Bars</a>
+        <a href="#materials">Cement (OPC / PPC)</a>
+        <a href="#materials">Bricks</a>
+        <p style="margin-top:10px;">Serving: Utai · Durg · Bhilai + nearby villages</p>
+      </div>
+      <div class="foot-col">
+        <h5>On This Page</h5>
+        <a href="#materials">Materials We Supply</a>
+        <a href="#how">How Ordering Works</a>
+        <a href="#areas">Delivery Areas</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Gayatri Traders.</span>
+      <span>Bazaar Chowk, Utai, Durg, Chhattisgarh</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, {threshold:0.12});
+    revealEls.forEach(el=>io.observe(el));
+  } else {
+    revealEls.forEach(el=>el.classList.add('in'));
+  }
+
+  // count-up numbers, once
+  const counters = document.querySelectorAll('.num-count');
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const animateCount = (el)=>{
+    const target = parseInt(el.getAttribute('data-count'),10);
+    if(prefersReduced){ el.textContent = target.toLocaleString(); return; }
+    let cur = 0;
+    const dur = 1100;
+    const start = performance.now();
+    const step = (t)=>{
+      const p = Math.min((t-start)/dur, 1);
+      cur = Math.floor(target * (1 - Math.pow(1-p,3)));
+      el.textContent = cur.toLocaleString();
+      if(p<1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+  if('IntersectionObserver' in window){
+    const cio = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ animateCount(e.target); cio.unobserve(e.target); } });
+    }, {threshold:0.5});
+    counters.forEach(c=>cio.observe(c));
+  } else {
+    counters.forEach(animateCount);
+  }
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item=>{
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    if(item.classList.contains('open')){ a.style.maxHeight = a.scrollHeight + 'px'; }
+    q.addEventListener('click', ()=>{
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(o=>{
+        if(o!==item){ o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight = 0; }
+      });
+      if(isOpen){
+        item.classList.remove('open'); a.style.maxHeight = 0;
+      } else {
+        item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
